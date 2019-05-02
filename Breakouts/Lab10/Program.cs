@@ -11,17 +11,17 @@ namespace Lab10
         static void Main(string[] args)
         {
             //Console.BackgroundColor = ConsoleColor.Cyan;
-            Circle c = new Circle(5.5);
-            Console.WriteLine("Circumference: " + c.GetCircumference() );
-            Console.WriteLine("Area: " + c.GetArea());
-            Console.WriteLine("-------------");
+            //Circle c = new Circle(5.5);
+            //Console.WriteLine("Circumference: " + c.GetCircumference() );
+            //Console.WriteLine("Area: " + c.GetArea());
+            //Console.WriteLine("-------------");
 
-            Circle c2 = new Circle(120.16);
-            c2.PrintInfo();
+            //Circle c2 = new Circle(120.16);
+            //c2.PrintInfo();
 
             //Circle doesn't exist how do we fix this error!
-            CircleAPP ca = new CircleAPP();
-
+            CircleApp ca = new CircleApp();
+           // ca.PrintCircles();
             ca.Run();
         }
     }

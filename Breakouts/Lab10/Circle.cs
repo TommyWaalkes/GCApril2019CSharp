@@ -13,7 +13,7 @@ namespace Lab10
         public Circle(double r)
         {
             //this.radius = radius;
-            radius = r;
+            radius = Math.Abs(r);
         }
 
         public double GetCircumference()

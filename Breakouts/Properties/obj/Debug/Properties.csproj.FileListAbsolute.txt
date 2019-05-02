@@ -1,0 +1,7 @@
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\bin\Debug\Properties.exe.config
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\bin\Debug\Properties.exe
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\bin\Debug\Properties.pdb
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\obj\Debug\Properties.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\obj\Debug\Properties.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\obj\Debug\Properties.exe
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\Properties\obj\Debug\Properties.pdb
