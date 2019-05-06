@@ -1,0 +1,7 @@
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\bin\Debug\MovieLab11.exe.config
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\bin\Debug\MovieLab11.exe
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\bin\Debug\MovieLab11.pdb
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\obj\Debug\MovieLab11.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\obj\Debug\MovieLab11.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\obj\Debug\MovieLab11.exe
+C:\Users\Tommy\Desktop\NetApril2019\Breakouts\MovieLab11\obj\Debug\MovieLab11.pdb
