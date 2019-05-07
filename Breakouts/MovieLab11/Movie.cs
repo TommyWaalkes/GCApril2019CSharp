@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MovieLab11
 {
-    public class Movie
+    public abstract class Movie
     {
         public string Title { get; set; }
         public string Category { get; set; }
@@ -41,6 +41,12 @@ namespace MovieLab11
         public virtual void Play()
         {
             Console.WriteLine("The play method only works on physical media");
+        }
+
+        public void PlayWholeMovie()
+        {
+            Console.WriteLine("Starting Movie...");
+            PrintScenes();
         }
     }
 }
