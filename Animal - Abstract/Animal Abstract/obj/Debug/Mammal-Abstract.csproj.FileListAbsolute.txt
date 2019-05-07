@@ -1,0 +1,6 @@
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Mammal-Abstract\Mammal-Abstract\bin\Debug\Mammal-Abstract.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Mammal-Abstract\Mammal-Abstract\bin\Debug\Mammal-Abstract.exe
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Mammal-Abstract\Mammal-Abstract\bin\Debug\Mammal-Abstract.pdb
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Mammal-Abstract\Mammal-Abstract\obj\Debug\Mammal-Abstract.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Mammal-Abstract\Mammal-Abstract\obj\Debug\Mammal-Abstract.exe
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Mammal-Abstract\Mammal-Abstract\obj\Debug\Mammal-Abstract.pdb

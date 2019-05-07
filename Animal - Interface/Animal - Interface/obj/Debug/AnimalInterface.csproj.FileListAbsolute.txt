@@ -1,0 +1,15 @@
+C:\Users\Tommy\Documents\Visual Studio 2015\Projects\Code Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\AnimalInterface.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\AnimalInterface.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\Animal - Interface.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\Animal - Interface.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\bin\Debug\Animal - Interface.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\AnimalInterface.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\Animal - Interface.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\Animal - Interface.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\Animal - Interface\Animal - Interface\obj\Debug\AnimalInterface.csprojAssemblyReference.cache
