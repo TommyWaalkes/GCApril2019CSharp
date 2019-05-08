@@ -22,7 +22,7 @@ namespace ModelViewController
             return names[index];
         }
 
-        public List<string> GetAllNames()
+        public List<string> GetNames()
         {
             return names;
         }

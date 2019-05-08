@@ -32,6 +32,7 @@ namespace FactoryPattern
                 shapes.Add(sha);
                 Console.WriteLine(i);
             }
+            //Use either to list or to array when converting collections
             IEnumerable<IShape> stuff = shapes;
             IShape[] stuff2 = stuff.ToArray();
 

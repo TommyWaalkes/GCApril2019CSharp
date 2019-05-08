@@ -18,3 +18,10 @@ C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Exam
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\ModelViewController\ModelViewController\obj\Debug\ModelViewController.exe
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\ModelViewController\ModelViewController\obj\Debug\ModelViewController.pdb
 C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\ModelViewController\ModelViewController\obj\Debug\ModelViewController.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\bin\Debug\ModelViewController.exe.config
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\bin\Debug\ModelViewController.exe
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\bin\Debug\ModelViewController.pdb
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\obj\Debug\ModelViewController.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\obj\Debug\ModelViewController.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\obj\Debug\ModelViewController.exe
+C:\Users\Tommy\Desktop\Class Repo - April 2019\ModelViewController\ModelViewController\obj\Debug\ModelViewController.pdb

@@ -27,7 +27,7 @@ namespace ModelViewController
 
         public void DisplayNames()
         {
-            v.DisplayNames(cm.GetNames());
+            v.DisplayNames(m.GetNames());
 
         }
     }
