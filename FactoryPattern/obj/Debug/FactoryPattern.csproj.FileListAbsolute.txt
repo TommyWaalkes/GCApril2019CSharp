@@ -1,0 +1,20 @@
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\FactoryPattern\obj\Debug\FactoryPattern.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\FactoryPattern\obj\Debug\FactoryPattern.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.csprojResolveAssemblyReference.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Users\Tommy\Documents\Visual Studio 2017\Projects\_Code Examples\_Object Examples\FactoryPattern\obj\Debug\FactoryPattern.pdb
