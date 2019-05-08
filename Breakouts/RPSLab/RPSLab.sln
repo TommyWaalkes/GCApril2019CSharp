@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPSLab", "RPSLab.csproj", "{896A5A08-8221-4277-B38A-93E2CEF2DBFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896A5A08-8221-4277-B38A-93E2CEF2DBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896A5A08-8221-4277-B38A-93E2CEF2DBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896A5A08-8221-4277-B38A-93E2CEF2DBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896A5A08-8221-4277-B38A-93E2CEF2DBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {016D1BBB-338F-4C61-9513-97175D77DC74}
+	EndGlobalSection
+EndGlobal

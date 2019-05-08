@@ -1,0 +1,7 @@
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\bin\Debug\RPSLab.exe.config
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\bin\Debug\RPSLab.exe
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\bin\Debug\RPSLab.pdb
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\obj\Debug\RPSLab.csprojAssemblyReference.cache
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\obj\Debug\RPSLab.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\obj\Debug\RPSLab.exe
+C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\RPSLab\obj\Debug\RPSLab.pdb
