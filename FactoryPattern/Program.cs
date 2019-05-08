@@ -14,7 +14,10 @@ namespace FactoryPattern
             //How does the factory figure out what shape to make?
             ShapeFactory s = new ShapeFactory();
             IShape squ = s.GetShape("square");
-            squ.Draw();
+            //squ.Draw();
+
+            Square square = (Square) s.GetShape("square");
+            square.Draw();
             IShape cir = s.GetShape("circle");
             cir.Draw();
             IShape tri = s.GetShape("triangle");
@@ -23,15 +26,16 @@ namespace FactoryPattern
             //nan.Draw();
 
             List<IShape> shapes = new List<IShape>();
-
             for(int i = 0; i<100; i++)
             {
                 IShape sha = s.GetShape("square");
                 shapes.Add(sha);
                 Console.WriteLine(i);
             }
+            IEnumerable<IShape> stuff = shapes;
+            IShape[] stuff2 = stuff.ToArray();
 
-            foreach(IShape shape in shapes)
+            foreach (IShape shape in stuff2)
             {
                 shape.Draw();
             }
