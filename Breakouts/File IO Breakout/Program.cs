@@ -18,7 +18,8 @@ namespace FileIO
            
             List<string> countries;
             //You will have to change this for yourself
-            string filePath = @"C:\Users\Tommy\Desktop\File IO Breakout\Countries.txt";
+            //string filePath = @"C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\File IO Breakout\Countries.txt";
+            string filePath = @"C:\Users\Tommy\Desktop\Class Repo - April 2019\Breakouts\File IO Breakout\Countries.txt";
             //Lastly to save, we need save, the way you do that is via a streamWriter 
             StreamReader reader;
             StreamWriter writer;
@@ -59,7 +60,7 @@ namespace FileIO
             }
             catch(Exception e)
             {
-                Console.WriteLine(e.StackTrace);
+                Console.WriteLine(e.Message);
             }
             //Where have we seen read and write before?
 
