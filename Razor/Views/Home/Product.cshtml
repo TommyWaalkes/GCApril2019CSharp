@@ -1,0 +1,41 @@
+﻿@model List<Razor.Models.Product>
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>Product Page</h2>
+<p>I'm going to perform a .Net Magic Trick</p>
+<p>I'm going to make a  product magically appear:</p>
+
+<h2>Product Table</h2>
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Cost
+        </th>
+        <th>
+            Description
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+        </tr>
+    }
+
+</table>
+
+

@@ -1,0 +1,28 @@
+﻿@{
+    string[] people = { "Jani", "Hege", "Kai", "Jim", "Billy" };
+    List<string> foods = new List<string>() { "Apple", "Egg", "Salmon", "Pizza" };
+
+    int AddOne(int x)
+    {
+        return x + 1;
+    }
+
+    int num = AddOne(1);
+}
+
+<p style="color:plum; font-size: 14px">@num</p>
+<h1>Array Printed using a foreach loop </h1>
+@foreach (string person in people)
+{
+    <h1 style="color:red">@person</h1>
+}
+
+
+<h1>List Printed using a for loop</h1>
+@for(int i = 0; i<foods.Count; i++)
+{
+    <p>Line @i : @foods[i]</p>
+}
+@{int total = foods.Count + people.Length;}
+<h1>Let's count all the items in my lists and arrays!</h1>
+<p>Total items in both my lists = @total  </p>
