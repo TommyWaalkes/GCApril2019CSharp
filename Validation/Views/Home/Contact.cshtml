@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+@{ 
+    string[] members = { "Jani", "Hege", "Kai", "Jim","Tommy","Jose","Kevin","" };
+}
+<ul>
+    @for (int i = 0; i < members.Length; i++)
+    {
+        <li>@members[i]</li>
+    }
+</ul>
