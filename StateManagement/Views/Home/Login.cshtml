@@ -1,0 +1,8 @@
+﻿@using StateManagement.Models
+@{ 
+    User u = (User) Session["User"];
+}
+
+<p>Welcome @u.UserName</p>
+
+<p>Here is your password: @u.Password</p>

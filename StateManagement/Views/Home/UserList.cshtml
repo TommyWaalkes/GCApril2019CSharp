@@ -1,0 +1,11 @@
+﻿@using StateManagement.Models
+
+@foreach(User u in ViewBag.dsgk)
+{
+    <p>User Name: @u.UserName</p>
+    <p>Password: @u.Password</p>
+    <br/>
+}
+
+
+@ViewBag.UsersList
