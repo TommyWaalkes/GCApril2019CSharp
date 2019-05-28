@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C77E8E2C-CB95-407A-BA97-30575ABF9522}</ProjectGuid>
+    <ProjectGuid>{427F6353-0ADC-44E2-9DA2-803936F2BFB8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EntityBreakout</RootNamespace>
-    <AssemblyName>EntityBreakout</AssemblyName>
+    <RootNamespace>Lab23Breakout</RootNamespace>
+    <AssemblyName>Lab23Breakout</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -132,23 +132,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\People.Context.cs">
+    <Compile Include="Models\Item.cs">
+      <DependentUpon>ShopDb.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShopDb.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>People.Context.tt</DependentUpon>
+      <DependentUpon>ShopDb.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\People.cs">
+    <Compile Include="Models\ShopDb.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>People.tt</DependentUpon>
+      <DependentUpon>ShopDb.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\People.Designer.cs">
+    <Compile Include="Models\ShopDb.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>People.edmx</DependentUpon>
+      <DependentUpon>ShopDb.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Person.cs">
-      <DependentUpon>People.tt</DependentUpon>
+    <Compile Include="Models\User.cs">
+      <DependentUpon>ShopDb.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -161,24 +164,24 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\People.Context.tt">
+    <Content Include="Models\ShopDb.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>People.edmx</DependentUpon>
-      <LastGenOutput>People.Context.cs</LastGenOutput>
+      <LastGenOutput>ShopDb.Context.cs</LastGenOutput>
+      <DependentUpon>ShopDb.edmx</DependentUpon>
     </Content>
-    <Content Include="Models\People.tt">
+    <Content Include="Models\ShopDb.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>People.edmx</DependentUpon>
-      <LastGenOutput>People.cs</LastGenOutput>
+      <DependentUpon>ShopDb.edmx</DependentUpon>
+      <LastGenOutput>ShopDb.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\People.edmx">
+    <EntityDeploy Include="Models\ShopDb.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>People.Designer.cs</LastGenOutput>
+      <LastGenOutput>ShopDb.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\People.edmx.diagram">
-      <DependentUpon>People.edmx</DependentUpon>
+    <Content Include="Models\ShopDb.edmx.diagram">
+      <DependentUpon>ShopDb.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -205,6 +208,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -241,9 +246,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>52497</DevelopmentServerPort>
+          <DevelopmentServerPort>54339</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:52497/</IISUrl>
+          <IISUrl>http://localhost:54339/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
