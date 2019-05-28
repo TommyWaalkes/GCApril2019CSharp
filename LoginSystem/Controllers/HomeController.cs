@@ -9,11 +9,23 @@ namespace LoginSystem.Controllers
 {
     public class HomeController : Controller
     {
-        public List<User> Users = new List<User>();
+        public List<User> Users {
+            get
+            {
+                if (Users == null)
+                {
+                    Users = new List<User>();
+                }
+                return Users;
+            }, 
+
+            set;
+        }
 
         //The first overload is for rendering the view
         public ActionResult Registration()
         {
+           
             return View();
         }
 
