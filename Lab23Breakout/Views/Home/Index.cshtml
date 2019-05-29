@@ -1,6 +1,11 @@
 ﻿@using Lab23Breakout.Models
 
-
+<h2>@Session["Error"]</h2>
 
 Welcome @ViewBag.User.UserName
 <p>Password: @ViewBag.User.Password</p>
+
+<form action="~/Home/Buy">
+    <input style="display:none;" name="Id" value="1"/>
+    <input type="submit" value="Buy Flex Tape $19.99"/>
+</form>

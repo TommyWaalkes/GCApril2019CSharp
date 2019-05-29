@@ -1,6 +1,7 @@
 ﻿using Lab23Breakout.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -77,6 +78,29 @@ namespace Lab23Breakout.Controllers
             }
 
             return RedirectToAction("Index");
+        }
+
+        public ActionResult Buy(int id)
+        {
+            if (Session["LoggedInUser"] != null)
+            {
+                Item purchase = db.Items.Find(id);
+                User buyer = (User) Session["LoggedInUser"];
+                if(buyer.Money < purchase.Price)
+                {
+                    Session["Error"] = $"{buyer.UserName} cannot afford {purchase.ProductName} at ${purchase.Price}";
+                }
+                else
+                {
+                    buyer.Money -= purchase.Price;
+                    db.Users.AddOrUpdate(buyer);
+                    db.SaveChanges();
+                }
+            }
+
+            return RedirectToAction("Index");
+           
+
         }
     }
 }
