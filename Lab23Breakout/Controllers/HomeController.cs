@@ -74,33 +74,64 @@ namespace Lab23Breakout.Controllers
                 if(u.UserName == UserName && u.Password == Password)
                 {
                     Session["LoggedInUser"] = u;
+                    break;
                 }
             }
 
             return RedirectToAction("Index");
         }
 
+        //public ActionResult Buy(int id)
+        //{
+        //    if (Session["LoggedInUser"] != null)
+        //    {
+        //        Item purchase = db.Items.Find(id);
+        //        User buyer = (User) Session["LoggedInUser"];
+        //        if(buyer.Money < purchase.Price)
+        //        {
+        //            Session["Error"] = $"{buyer.UserName} cannot afford {purchase.ProductName} at ${purchase.Price}";
+        //        }
+        //        else
+        //        {
+        //            buyer.Money -= purchase.Price;
+        //            db.Users.AddOrUpdate(buyer);
+        //            db.SaveChanges();
+        //        }
+        //    }
+
+        //    return RedirectToAction("Index");
+        //}
+
         public ActionResult Buy(int id)
         {
+            Item purchase = db.Items.Find(id);
             if (Session["LoggedInUser"] != null)
             {
-                Item purchase = db.Items.Find(id);
-                User buyer = (User) Session["LoggedInUser"];
-                if(buyer.Money < purchase.Price)
-                {
-                    Session["Error"] = $"{buyer.UserName} cannot afford {purchase.ProductName} at ${purchase.Price}";
-                }
-                else
+                User buyer = (User)Session["LoggedInUser"];
+
+                if (buyer.Money > purchase.Price && purchase.Quantity > 0)
                 {
                     buyer.Money -= purchase.Price;
+                    purchase.Quantity--;
                     db.Users.AddOrUpdate(buyer);
+                    db.Items.AddOrUpdate(purchase);
+
                     db.SaveChanges();
                 }
             }
+            else
+            {
+                Session["Error"] = "You must login before you make a purchase";
+                return RedirectToAction("Login");
+            }
+            return RedirectToAction("Shop");
+        }
 
-            return RedirectToAction("Index");
-           
+        public ActionResult Shop()
+        {
+            List<Item> products = db.Items.ToList();
 
+            return View(products);
         }
     }
 }

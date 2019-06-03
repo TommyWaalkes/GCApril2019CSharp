@@ -1,5 +1,4 @@
-﻿@using Lab23Breakout.Models
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -21,14 +20,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>.
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    @if (Session["LoggedInUser"] != null)
-                    {
-                        User u = (User) Session["LoggedInUser"];
-                        <li style="color:white"><a>@u.UserName is Logged in with $@u.Money</a> </li>
-                    }
                 </ul>
             </div>
         </div>
