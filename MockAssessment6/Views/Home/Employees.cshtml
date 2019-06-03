@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MockAssessment6.Models.Employee>
+
+@{
+    ViewBag.Title = "Employees";
+}
+
+<h2>Employees</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salary)
+        </td>
+    </tr>
+}
+
+</table>
+
+<form action="~/Home/RetirementInfo">
+    <input type="number" name="id"/>
+    <input type="submit"/>
+</form>
