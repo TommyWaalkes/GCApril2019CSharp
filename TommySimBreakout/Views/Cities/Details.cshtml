@@ -1,0 +1,74 @@
+﻿@model TommySimBreakout.Models.City
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>City</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Villagers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Villagers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wood)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wood)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Food)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Water)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Water)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wells)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wells)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Houses)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Houses)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

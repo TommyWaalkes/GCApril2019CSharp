@@ -1,0 +1,69 @@
+﻿@model IEnumerable<TommySimBreakout.Models.City>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Villagers)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wood)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Food)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Water)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Wells)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Houses)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Day)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Villagers)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wood)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Food)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Water)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wells)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Houses)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Day)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

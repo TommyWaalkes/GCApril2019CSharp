@@ -1,0 +1,83 @@
+﻿@model TommySimBreakout.Models.City
+
+@{
+    ViewBag.Title = "Game";
+}
+
+<h2>Game</h2>
+<h2>@ViewBag.CityId </h2>
+<div>
+    <h4>City</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Villagers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Villagers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wood)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wood)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Food)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Food)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Water)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Water)
+           @* <a href="~/Home/Harvest/"><button  name="resource" value="water">Harvest Water</button></a>*@
+            <form action="~/Home/Harvest">
+                <input type="text" name="resource" value="water"/>
+                <input type="submit" value="Harvest Water"/>
+            </form>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Wells)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Wells)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Houses)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Houses)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Actions)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Actions)
+        </dd>
+    </dl>
+</div>
