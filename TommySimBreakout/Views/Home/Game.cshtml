@@ -34,6 +34,13 @@
         <dd>
             @Html.DisplayFor(model => model.Food)
         </dd>
+        
+        <script>
+            function water() {
+               // $.ajax({ url: "/Home/Harvest/?resource=water" })
+                location.replace("/Home/Harvest/?resource=water")
+            }
+        </script>
 
         <dt>
             @Html.DisplayNameFor(model => model.Water)
@@ -46,6 +53,7 @@
                 <input type="text" name="resource" value="water"/>
                 <input type="submit" value="Harvest Water"/>
             </form>
+            <button onclick="water()">Get Water</button>
         </dd>
 
         <dt>
