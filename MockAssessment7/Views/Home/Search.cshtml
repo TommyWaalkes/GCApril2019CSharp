@@ -1,0 +1,17 @@
+﻿@using MockAssessment7.Models
+
+<p>@Model.Name</p>
+
+<p>@Model.Calories</p>
+
+<img src="@Model.PhotoURL"/>
+
+
+@if(Model.Extras != null)
+{
+    <p>Extras</p>
+    foreach(string s in Model.Extras)
+    {
+        @s
+    }
+}
