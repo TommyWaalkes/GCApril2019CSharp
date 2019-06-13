@@ -26,6 +26,14 @@ namespace APIHosting.Controllers
             return boy;
         }
 
+        public Cowboy GetRandomCowboy()
+        {
+            Random r = new Random();
+            int pick = r.Next(1, db.Cowboys.Count());
+            Cowboy c = db.Cowboys.Find(pick);
+            return c;
+        }
+
         // POST api/values
         //Put in a paramater in the method for each property in our model
         public string Post([FromBody]string value)
