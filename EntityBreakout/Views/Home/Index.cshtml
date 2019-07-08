@@ -1,23 +1,27 @@
 ﻿@using EntityBreakout.Models
 
-@{ 
+@{
     Person p = ViewBag.Person;
 }
 
 <p>Name: @p.firstName</p>
-<p>Is Force User: @{
-    string output = "";
-    if (p.isForceUser == true)
-    {
-        output = "true";
-    }
-    else
-    {
-        output = "false";
-    }
+<p>
+    Is Force User: @{
+        string output = "";
+        if (p.isForceUser == true)
+        {
+            output = "true";
+        }
+        else
+        {
+            output = "false";
+        }
 
-    @output
+        @output
 
-}</p>
+    }
+</p>
+
+@ViewBag.Test
 
 <p>Home Planet: @p.homePlanet</p>

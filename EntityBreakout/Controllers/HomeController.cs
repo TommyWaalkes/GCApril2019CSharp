@@ -1,6 +1,7 @@
 ﻿using EntityBreakout.Models;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -17,6 +18,7 @@ namespace EntityBreakout.Controllers
             List<Person> p = db.People.ToList();
             Person output = p[0];
             ViewBag.Person = output;
+            ViewBag.Test = ConfigurationManager.ConnectionStrings["StarWarsEntities"];
             return View();
         }
 
